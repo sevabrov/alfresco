@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../client/app/log/log.controller.js"],"names":[],"mappings":"AAAA,YAAY,CAAC;AACb,OAAO,CAAC,MAAM,CAAC,aAAa,CAAC,CAC1B,UAAU,CAAC,eAAe,EAAE,UAAS,MAAM,EAAE,MAAM,EAAE,EAEvD,CAAC,CAAC","file":"log.controller.js","sourcesContent":["'use strict';\nangular.module('alfreskoApp')\n  .controller('LogController', function($scope, $state) {\n\n});\n"]}

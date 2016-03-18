@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>AL FRESCO - History</title>
+
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script type="text/javascript" src="js/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content cont-width clrfix">
+            <div class="header-l fl-l">
+                <div class="header-logo fl-l">
+                    <img src="img/logo.svg" title="AL FRESCO" alt="AL FRESCO">
+                </div>
+                <div class="header-place-changer btn-group fl-l">
+                    <div class="hpc-itm dropdown-toggle" data-toggle="dropdown">
+                        <div class="hpc-itm-title">Al fresco #2</div>
+                        <div class="hpc-itm-adress">Astana, Orynbor street 234</div>
+                    </div>
+                    <ul class="hpc-dropdown-submenu dropdown-menu">
+                        <li class="dropdown-menu-itm selected">
+                            <div class="hpc-itm-title">Al fresco #2</div>
+                            <div class="hpc-itm-adress">Astana, Orynbor street 234</div>
+                        </li>
+                        <li class="dropdown-menu-itm">
+                            <div class="hpc-itm-title">Al fresco #1</div>
+                            <div class="hpc-itm-adress">Astana, Orynbor street 234</div>
+                        </li>
+                        <li class="dropdown-menu-itm">
+                            <div class="hpc-itm-title">Al fresco #3</div>
+                            <div class="hpc-itm-adress">Astana, Orynbor street 234</div>
+                        </li>
+                        <li class="dropdown-menu-itm">
+                            <div class="hpc-itm-title">Al fresco #4</div>
+                            <div class="hpc-itm-adress">Astana, Orynbor street 234</div>
+                        </li>
+                        <button class="btn btn-fiolet">Добавить филиал</button>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-r fl-r">
+                <div class="btn-group user-dropdown">
+                    <div class="user-info-head dropdown-toggle" data-toggle="dropdown">
+                        <span class="user-ava" data-letter="J"></span>
+                        <span class="user-name">John Doevius</span>
+                        <span class="caret"></span>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-menu-itm">
+                            Подписка и оплата
+                        </li>
+                        <li class="dropdown-menu-itm">
+                            Настройки профиля
+                        </li>
+                        <li class="dropdown-menu-itm">
+                            Выйти
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <nav class="header-navigation cont-width">
+            <a href="index.html" class="header-navigation-itm">Статистика</a>
+            <a href="personal.html" class="header-navigation-itm">ПЕРСОНАЛ</a>
+            <a href="discount.html" class="header-navigation-itm">скидки</a>
+            <a href="history.html" class="header-navigation-itm current">журнал событий</a>
+            <a href="setings.html" class="header-navigation-itm">настройки</a>
+        </nav>
+    </header>
+    <main class="page-cont">
+        <div class="page-scrolable-content">
+            <div class="cont-width pre-page-distance">
+                <div class="search-inp-group">
+                    <label for="search-inp" class="lasbel-search"></label>
+                    <input type="search" id="search-inp" class="std-inp search-inp" placeholder="Искать по имени, дате или сумме">
+                </div>
+                <div class="history-pg-list">
+                    <div class="history-list-group">
+                        <div class="history-list-date">Сегодня</div>
+                        <div class="history-list-itm clrfix">
+                            <div class="fl-l history-list-itm-info">
+                                <div class="hlii-name">
+                                    <span class="hlii-name-id">5 100  - 510 (10 % кухня) = 4 590 KZT</span>
+                                    <span class="hlii-name-person">для Ибрагим Вадимов</span>
+                                </div>
+                                <div class="hlii-rating-bl">
+                                    <span class="hlii-rating-place">
+                                        Кухня  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:60%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Бар  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Сервис  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:67%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Чистота  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="fl-r history-list-itm-det-date">14.03.15 в 14:03</div>
+                        </div>
+                        <div class="history-list-itm clrfix">
+                            <div class="fl-l history-list-itm-info">
+                                <div class="hlii-name">
+                                    <span class="hlii-name-id">5 100  - 510 (10 % кухня) = 4 590 KZT</span>
+                                    <span class="hlii-name-person">для Ибрагим Вадимов</span>
+                                </div>
+                                <div class="hlii-rating-bl">
+                                    <span class="hlii-rating-place">
+                                        Кухня  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:60%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Бар  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Сервис  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:67%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Чистота  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="fl-r history-list-itm-det-date">14.03.15 в 14:03</div>
+                        </div>
+                        <div class="history-list-itm clrfix">
+                            <div class="fl-l history-list-itm-info">
+                                <div class="hlii-name">
+                                    <span class="hlii-name-id">5 100  - 510 (10 % кухня) = 4 590 KZT</span>
+                                    <span class="hlii-name-person">для Ибрагим Вадимов</span>
+                                </div>
+                                <div class="hlii-rating-bl">
+                                    <span class="hlii-rating-place">
+                                        Кухня  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:60%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Бар  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Сервис  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:67%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Чистота  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="fl-r history-list-itm-det-date">14.03.15 в 14:03</div>
+                        </div>
+                        <div class="history-list-itm clrfix">
+                            <div class="fl-l history-list-itm-info">
+                                <div class="hlii-name">
+                                    <span class="hlii-name-id">5 100  - 510 (10 % кухня) = 4 590 KZT</span>
+                                    <span class="hlii-name-person">для Ибрагим Вадимов</span>
+                                </div>
+                                <div class="hlii-rating-bl">
+                                    <span class="hlii-rating-place">
+                                        Кухня  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:60%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Бар  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Сервис  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:67%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Чистота  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="fl-r history-list-itm-det-date">14.03.15 в 14:03</div>
+                        </div>
+                        <div class="history-list-itm clrfix">
+                            <div class="fl-l history-list-itm-info">
+                                <div class="hlii-name">
+                                    <span class="hlii-name-id">5 100  - 510 (10 % кухня) = 4 590 KZT</span>
+                                    <span class="hlii-name-person">для Ибрагим Вадимов</span>
+                                </div>
+                                <div class="hlii-rating-bl">
+                                    <span class="hlii-rating-place">
+                                        Кухня  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:60%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Бар  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Сервис  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:67%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Чистота  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="fl-r history-list-itm-det-date">14.03.15 в 14:03</div>
+                        </div>
+                        <div class="history-list-itm clrfix">
+                            <div class="fl-l history-list-itm-info">
+                                <div class="hlii-name">
+                                    <span class="hlii-name-id">5 100  - 510 (10 % кухня) = 4 590 KZT</span>
+                                    <span class="hlii-name-person">для Ибрагим Вадимов</span>
+                                </div>
+                                <div class="hlii-rating-bl">
+                                    <span class="hlii-rating-place">
+                                        Кухня  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:60%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Бар  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Сервис  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:67%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Чистота  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="fl-r history-list-itm-det-date">14.03.15 в 14:03</div>
+                        </div>
+                    </div>
+                    <div class="history-list-group">
+                        <div class="history-list-date">Остальные</div>
+                        <div class="history-list-itm clrfix">
+                            <div class="fl-l history-list-itm-info">
+                                <div class="hlii-name">
+                                    <span class="hlii-name-id">5 100  - 510 (10 % кухня) = 4 590 KZT</span>
+                                    <span class="hlii-name-person">для Ибрагим Вадимов</span>
+                                </div>
+                                <div class="hlii-rating-bl">
+                                    <span class="hlii-rating-place">
+                                        Кухня  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:60%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Бар  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Сервис  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:67%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Чистота  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="fl-r history-list-itm-det-date">14.03.15 в 14:03</div>
+                        </div>
+                        <div class="history-list-itm clrfix">
+                            <div class="fl-l history-list-itm-info">
+                                <div class="hlii-name">
+                                    <span class="hlii-name-id">5 100  - 510 (10 % кухня) = 4 590 KZT</span>
+                                    <span class="hlii-name-person">для Ибрагим Вадимов</span>
+                                </div>
+                                <div class="hlii-rating-bl">
+                                    <span class="hlii-rating-place">
+                                        Кухня  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:60%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Бар  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Сервис  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:67%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Чистота  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="fl-r history-list-itm-det-date">14.03.15 в 14:03</div>
+                        </div>
+                        <div class="history-list-itm clrfix">
+                            <div class="fl-l history-list-itm-info">
+                                <div class="hlii-name">
+                                    <span class="hlii-name-id">5 100  - 510 (10 % кухня) = 4 590 KZT</span>
+                                    <span class="hlii-name-person">для Ибрагим Вадимов</span>
+                                </div>
+                                <div class="hlii-rating-bl">
+                                    <span class="hlii-rating-place">
+                                        Кухня  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:60%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Бар  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Сервис  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:67%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Чистота  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="fl-r history-list-itm-det-date">14.03.15 в 14:03</div>
+                        </div>
+                        <div class="history-list-itm clrfix">
+                            <div class="fl-l history-list-itm-info">
+                                <div class="hlii-name">
+                                    <span class="hlii-name-id">5 100  - 510 (10 % кухня) = 4 590 KZT</span>
+                                    <span class="hlii-name-person">для Ибрагим Вадимов</span>
+                                </div>
+                                <div class="hlii-rating-bl">
+                                    <span class="hlii-rating-place">
+                                        Кухня  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:60%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Бар  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Сервис  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:67%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Чистота  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="fl-r history-list-itm-det-date">14.03.15 в 14:03</div>
+                        </div>
+                        <div class="history-list-itm clrfix">
+                            <div class="fl-l history-list-itm-info">
+                                <div class="hlii-name">
+                                    <span class="hlii-name-id">5 100  - 510 (10 % кухня) = 4 590 KZT</span>
+                                    <span class="hlii-name-person">для Ибрагим Вадимов</span>
+                                </div>
+                                <div class="hlii-rating-bl">
+                                    <span class="hlii-rating-place">
+                                        Кухня  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:60%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Бар  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Сервис  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:67%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Чистота  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="fl-r history-list-itm-det-date">14.03.15 в 14:03</div>
+                        </div>
+                        <div class="history-list-itm clrfix">
+                            <div class="fl-l history-list-itm-info">
+                                <div class="hlii-name">
+                                    <span class="hlii-name-id">5 100  - 510 (10 % кухня) = 4 590 KZT</span>
+                                    <span class="hlii-name-person">для Ибрагим Вадимов</span>
+                                </div>
+                                <div class="hlii-rating-bl">
+                                    <span class="hlii-rating-place">
+                                        Кухня  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:60%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Бар  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Сервис  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <span class="hlii-rating-count" style="width:67%;">
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                            </span>
+                                    </span>
+                                    </span>
+                                    <span class="hlii-rating-place">
+                                        Чистота  
+                                        <span class="hlii-rating-stars-bl">
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                            <i class="glyphicon glyphicon-star-empty" ></i>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="fl-r history-list-itm-det-date">14.03.15 в 14:03</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

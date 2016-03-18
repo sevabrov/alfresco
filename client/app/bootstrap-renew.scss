@@ -1,0 +1,41 @@
+.btn {
+  background-color: rgb(245, 245, 245);
+  background-image: none;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 2px;
+  color: rgb(113, 113, 113);
+  cursor: pointer;
+  display: inline-block;
+  font: 15px/1 robotolight;
+  height: 44px;
+  margin-bottom: 0;
+  padding: 0 21px;
+  text-align: center;
+  transition: all 0.2s ease 0s;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: rgb(113, 113, 113);
+  outline: none;
+  box-shadow: 0 0 0;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: medium none;
+  outline-offset: 0;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  outline: medium none;
+  outline-offset: 0;
+}
+.body-content {
+    height: 100%;
+}

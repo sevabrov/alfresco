@@ -1,0 +1,53 @@
+<div class="header-content cont-width clrfix" >
+  <div class="header-l fl-l">
+    <a href="/" class="header-logo fl-l">
+      <img src="assets/images/logo.svg" title="AL FRESCO" alt="AL FRESCO">
+    </a>
+    <div class="header-place-changer btn-group fl-l">
+      <div class="hpc-itm dropdown-toggle">
+        <div class="hpc-itm-title">Al fresco #2</div>
+        <div class="hpc-itm-adress">Astana, Orynbor street 234</div>
+      </div>
+      <ul class="hpc-dropdown-submenu dropdown-menu">
+        <li class="dropdown-menu-itm selected">
+          <div class="hpc-itm-title">Al fresco #1</div>
+          <div class="hpc-itm-adress">Astana, Orynbor street 234</div>
+        </li>
+        <li class="dropdown-menu-itm">
+          <div class="hpc-itm-title">Al fresco #3</div>
+          <div class="hpc-itm-adress">Astana, Orynbor street 234</div>
+        </li>
+        <li class="dropdown-menu-itm">
+          <div class="hpc-itm-title">Al fresco #4</div>
+          <div class="hpc-itm-adress">Astana, Orynbor street 234</div>
+        </li>
+        <a href="/add-place" class="btn btn-fiolet">Добавить филиал</a>
+      </ul>
+    </div>
+  </div>
+  <div class="header-r fl-r">
+    <div class="btn-group user-dropdown">
+      <div class="user-info-head">
+        <span class="user-ava" data-letter="J"></span>
+        <span class="user-name">John Doevius</span>
+        <span class="caret"></span>
+      </div>
+      <ul class="user-menu-dropdown dropdown-menu">
+        <li class="dropdown-menu-itm">
+          Подписка и оплата
+        </li>
+        <li class="dropdown-menu-itm">
+          Настройки профиля
+        </li>
+        <li class="dropdown-menu-itm">
+          Выйти
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<nav class="header-navigation cont-width">
+  <a ng-repeat="(key, val) in menu" href="{{val.href}}" ng-class="{'current' : val.active}" class="header-navigation-itm ">{{val.title}}</a>
+</nav>
+
+

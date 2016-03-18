@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>AL FRESCO - Add place</title>
+
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script type="text/javascript" src="js/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+    <header class="header new-place-header">
+        <div class="header-content cont-width clrfix">
+            <div class="header-l fl-l">
+                <div class="header-logo fl-l">
+                    <img src="img/logo.svg" title="AL FRESCO" alt="AL FRESCO">
+                </div>
+                <div class="header-place-changer btn-group fl-l">
+                    <div class="hpc-itm dropdown-toggle no-list" data-toggle="dropdown">
+                        <div class="hpc-itm-title">Новое заведение</div>
+                        <div class="hpc-itm-adress">Адрес вашего заведения</div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-r fl-r">
+                <div class="btn-group user-dropdown">
+                    <div class="user-info-head dropdown-toggle" data-toggle="dropdown">
+                        <span class="user-ava" data-letter="J"></span>
+                        <span class="user-name">John Doevius</span>
+                        <span class="caret"></span>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-menu-itm">
+                            Подписка и оплата
+                        </li>
+                        <li class="dropdown-menu-itm">
+                            Настройки профиля
+                        </li>
+                        <li class="dropdown-menu-itm">
+                            Выйти
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="page-cont new-place-cont">
+        <div class="page-scrolable-content">
+            <div class="cont-width pre-page-distance">
+                <div class="add-place-pg">
+                    <div class="add-place-steps">
+                        <div class="ap-step-itm active done">Шаг 1: Информация</div>
+                        <div class="ap-step-itm ">Шаг 2: Персонал</div>
+                        <div class="ap-step-itm ">Шаг 3: Скидки</div>
+                        <div class="ap-step-itm ">Завершение</div>
+                    </div>
+                    <div class="ap-step-itm-bl active">
+                        <p class="step-title-name">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <div class="set-params-bl ">
+                            <div class="group-form-title">Основное</div>
+
+                            <label for="" class="std-top-label">ТИП ЗАВЕДЕНИЯ</label>
+                            <input type="text" class="std-inp seting-inp" value="Ресторан">
+                            <label for="" class="std-top-label">НАЗВАНИЕ ЗАВЕДЕНИЯ</label>
+                            <input type="text" class="std-inp seting-inp" value="Al fresco #2">
+                            <label for="" class="std-top-label">ГОРОД</label>
+                            <input type="text" class="std-inp seting-inp" value="Астана">
+                            <label for="" class="std-top-label">УЛИЦА</label>
+                            <input type="text" class="std-inp seting-inp" value="ул. Оренбор">
+                            <label for="" class="std-top-label">НОМЕР ДОМА</label>
+                            <input type="text" class="std-inp seting-inp" value="234">
+
+                            <div class="group-form-title clients-title-marg">Информация для клиентов</div>
+                            <input type="text" class="std-inp seting-inp client-inp" placeholder="Веб-сайт">
+
+                            <input type="text" class="std-inp seting-inp client-inp" placeholder="Телефон (+7 7172 XX XX XX)">
+                            <div class="add-place-contols">
+                                <button class="btn decline-btn">Отмена</button>
+                                <button class="btn next-btn">Дальше</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ap-step-itm-bl">
+                        <p class="step-title-name">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <button class="btn user-plus-btn">Добавить нового сотрудника</button>
+                        <div class="staff-managment-list">
+                            <div class="staff-managment-itm clrfix">
+                                <div class="staf-managment-itm-rate fl-l"></div>
+                                <div class="staf-managment-itm-info fl-l">
+                                    <div class="staff-managment-itm-name">
+                                        <span class="online-ckeck online"></span>
+                                        Елена Боровичок
+                                    </div>
+                                    <div class="staff-managment-itm-dop-info">
+                                        +3 096 123 45 67, elenaborovichek@gmail.com
+                                    </div>
+                                </div>
+                                <div class="staff-managment-itm-delete"></div>
+                            </div>
+                            <div class="staff-managment-itm clrfix">
+                                <div class="staf-managment-itm-rate fl-l"></div>
+                                <div class="staf-managment-itm-info fl-l">
+                                    <div class="staff-managment-itm-name">
+                                        <span class="online-ckeck"></span>
+                                        Елена Боровичок
+                                    </div>
+                                    <div class="staff-managment-itm-dop-info">
+                                        +3 096 123 45 67, elenaborovichek@gmail.com
+                                    </div>
+                                </div>
+                                <div class="staff-managment-itm-delete"></div>
+                            </div>
+                            <div class="staff-managment-itm clrfix">
+                                <div class="staf-managment-itm-rate fl-l"></div>
+                                <div class="staf-managment-itm-info fl-l">
+                                    <div class="staff-managment-itm-name">
+                                        <span class="online-ckeck"></span>
+                                        Елена Боровичок
+                                    </div>
+                                    <div class="staff-managment-itm-dop-info">
+                                        +3 096 123 45 67, elenaborovichek@gmail.com
+                                    </div>
+                                </div>
+                                <div class="staff-managment-itm-delete"></div>
+                            </div>
+
+                        </div>
+                        <div class="add-place-contols">
+                            <button class="btn decline-btn">Отмена</button>
+                            <button class="btn next-btn">Дальше</button>
+                        </div>
+                    </div>
+                    <div class="ap-step-itm-bl">
+                        <p class="step-title-name">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <div class="discount-bl-list">
+                            <div class="discount-bl-itm">
+                                <p class="discount-bl-itm-name">Скидочная сетка <b>Кухня</b> связана с Кухня из Al fresco #1</p>
+                                <div class="discount-bl-itm-table">
+                                    <div class="discount-bl-itm-table-row clrfix">
+                                        <span class="discount-bl-itm-delete"></span>
+                                        <span class="discount-bl-itm-table-cell">Стартовая скидка</span>
+                                        <span class="discount-bl-itm-table-cell">3 %</span>
+                                    </div>
+                                    <div class="discount-bl-itm-table-row clrfix">
+                                        <span class="discount-bl-itm-delete"></span>
+                                        <span class="discount-bl-itm-table-cell">От 5000 KZT</span>
+                                        <span class="discount-bl-itm-table-cell">5 %</span>
+                                    </div>
+                                    <div class="discount-bl-itm-table-row clrfix">
+                                        <span class="discount-bl-itm-delete"></span>
+                                        <span class="discount-bl-itm-table-cell">От 10 000 KZT</span>
+                                        <span class="discount-bl-itm-table-cell">3 %</span>
+                                    </div>
+                                    <div class="discount-bl-itm-table-row clrfix">
+                                        <span class="discount-bl-itm-delete"></span>
+                                        <span class="discount-bl-itm-table-cell">От 15 000 KZT</span>
+                                        <span class="discount-bl-itm-table-cell">15 %</span>
+                                    </div>
+                                    <div class="discount-bl-itm-table-row clrfix">
+                                        <span class="discount-bl-itm-delete"></span>
+                                        <span class="discount-bl-itm-table-cell">От 25 000 KZT</span>
+                                        <span class="discount-bl-itm-table-cell">25 %</span>
+                                    </div>
+                                    <button class="btn discount-plus-btn">Добавить скидку</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="add-place-contols ">
+                            <button class="btn decline-btn">Отмена</button>
+                            <button class="btn next-btn">Дальше</button>
+                        </div>
+                    </div>
+                    <div class="ap-step-itm-bl">
+                        <div class="finish-step-cont">
+                            <img src="img/finish-add-place-img-1.png" class="finish-tep-cont-prev-img">
+                            <img src="img/finish-add-place-img-2.png" class="finish-tep-cont-prev-img">
+                            <p class="finish-step-text">Поздравляем вы добавили свое первое заведение! Вы всегда сможете изменить или добавить заведения в будущем.
+Нажмите сохранить чтобы подтвердить добавление.</p>
+                        </div>
+
+                        <div class="add-place-contols">
+                            <button class="btn decline-btn">Отмена</button>
+                            <button class="btn submit-btn">Сохранить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

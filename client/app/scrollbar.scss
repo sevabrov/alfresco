@@ -1,0 +1,23 @@
+.mCSB_container_wrapper > .mCSB_container {
+  padding-right: 0;
+}
+.mCSB_container_wrapper {
+  margin-right: 0;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-color: rgba(107, 42, 187, 0.5);
+}
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+  background-color: rgba(107, 42, 187, 0.8);
+}
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+  background-color: rgb(107, 42, 187);
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 4px;
+}
