@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../client/app/main/main.controller.js"],"names":[],"mappings":";AACA,YAAY,CAAC;AACb,OAAO,CAAC,MAAM,CAAC,aAAa,CAAC,CAC1B,UAAU,CAAC,gBAAgB,EAAE,UAAS,MAAM,EAAE,MAAM,EAAE,EAExD,CAAC,CAAC","file":"main.controller.js","sourcesContent":["\n'use strict';\nangular.module('alfreskoApp')\n  .controller('MainController', function($scope, $state) {\n\n});\n"]}
